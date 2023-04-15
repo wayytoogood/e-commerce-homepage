@@ -1,0 +1,74 @@
+/*
+===============
+Fonts
+===============
+*/
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(/fonts/Avenir.ttc) format('truetype');
+}
+@font-face {
+  font-family: 'ITCBold';
+  src: local('ITCBold'),
+    url(/fonts/ITCAvantGardePro-Bold.otf) format('opentype');
+}
+/*
+===============
+Variables
+===============
+*/
+:root {
+  /* colors */
+  --black: #000;
+  --white: #fff;
+  --gray: #666;
+  --blue: #99c3cc;
+  --brown: #cc9999;
+  --purple: #cb99cc;
+  --green: #bcd9b2;
+  /* fonts  */
+  --headingFont: 'ITCBold', sans-serif;
+  --bodyFont: 'Avenir', sans-serif;
+}
+/*
+===============
+Default Styles
+===============
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  background-color: var(--white);
+  font-family: var(--bodyFont);
+  font-weight: 400;
+  color: var(--black);
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-family: var(--headingFont), sans-serif;
+}
