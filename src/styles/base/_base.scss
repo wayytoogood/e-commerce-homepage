@@ -69,6 +69,12 @@ img {
   display: block;
 }
 
+button {
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 h1 {
   font-family: var(--headingFont), sans-serif;
 }

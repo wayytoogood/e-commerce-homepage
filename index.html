@@ -5,6 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <main>
@@ -24,108 +31,117 @@
             </p>
             <p class="shop-all">Shop All Everyday Items</p>
           </article>
-          <div class="product-container__products">
-            <!-- product one -->
-            <article class="product-container__product">
-              <img src="/images/product-1.jpg" alt="product-1" />
-              <div class="product-container__footer">
-                <h3>365 Signature Hoodie</h3>
-                <div class="product-container__features">
-                  <p>€33.95</p>
-                  <div class="colors">
-                    <div class="color-container active">
-                      <div class="color blue"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color brown"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color purple"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color green"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <!-- end of product one -->
-            <!-- product two -->
-            <article class="product-container__product">
-              <img src="/images/product-2.jpg" alt="product-2" />
-              <div class="product-container__footer">
-                <h3>Organic Skinny High Waist Jeans</h3>
-                <div class="product-container__features">
-                  <p>€26.35</p>
-                  <div class="colors">
-                    <div class="color-container active">
-                      <div class="color blue"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color brown"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color purple"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color green"></div>
+          <div class="scroll-container">
+            <!-- next and prev slider button -->
+            <button class="nav-btn prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="nav-btn next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <div class="product-container__products">
+              <!-- product one -->
+              <article class="product-container__product">
+                <img src="/images/product-1.jpg" alt="product-1" />
+                <div class="product-container__footer">
+                  <h3>365 Signature Hoodie</h3>
+                  <div class="product-container__features">
+                    <p>€33.95</p>
+                    <div class="colors">
+                      <div class="color-container active">
+                        <div class="color blue"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color brown"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color purple"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color green"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </article>
-            <!-- end of product two -->
-            <!-- product three -->
-            <article class="product-container__product">
-              <img src="/images/product-3.jpg" alt="product-3" />
-              <div class="product-container__footer">
-                <h3>Organic Skinny High Waist Jeans</h3>
-                <div class="product-container__features">
-                  <p>€36.25</p>
-                  <div class="colors">
-                    <div class="color-container active">
-                      <div class="color blue"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color brown"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color purple"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color green"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <!-- end of product three -->
-            <!-- product four -->
-            <article class="product-container__product">
-              <img src="/images/product-1.jpg" alt="product-1" />
-              <div class="product-container__footer">
-                <h3>362 Signature Hoodie</h3>
-                <div class="product-container__features">
-                  <p>€30.15</p>
-                  <div class="colors">
-                    <div class="color-container active">
-                      <div class="color blue"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color brown"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color purple"></div>
-                    </div>
-                    <div class="color-container">
-                      <div class="color green"></div>
+              </article>
+              <!-- end of product one -->
+              <!-- product two -->
+              <article class="product-container__product">
+                <img src="/images/product-2.jpg" alt="product-2" />
+                <div class="product-container__footer">
+                  <h3>Organic Skinny High Waist Jeans</h3>
+                  <div class="product-container__features">
+                    <p>€26.35</p>
+                    <div class="colors">
+                      <div class="color-container active">
+                        <div class="color blue"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color brown"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color purple"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color green"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </article>
-            <!-- end of product four -->
-            <div class="margin-item"></div>
+              </article>
+              <!-- end of product two -->
+              <!-- product three -->
+              <article class="product-container__product">
+                <img src="/images/product-3.jpg" alt="product-3" />
+                <div class="product-container__footer">
+                  <h3>Organic Skinny High Waist Jeans</h3>
+                  <div class="product-container__features">
+                    <p>€36.25</p>
+                    <div class="colors">
+                      <div class="color-container active">
+                        <div class="color blue"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color brown"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color purple"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color green"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end of product three -->
+              <!-- product four -->
+              <article class="product-container__product">
+                <img src="/images/product-1.jpg" alt="product-1" />
+                <div class="product-container__footer">
+                  <h3>362 Signature Hoodie</h3>
+                  <div class="product-container__features">
+                    <p>€30.15</p>
+                    <div class="colors">
+                      <div class="color-container active">
+                        <div class="color blue"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color brown"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color purple"></div>
+                      </div>
+                      <div class="color-container">
+                        <div class="color green"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- end of product four -->
+              <div class="margin-item"></div>
+            </div>
           </div>
         </section>
       </div>
