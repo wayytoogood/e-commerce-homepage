@@ -1,4 +1,4 @@
-## Infomations
+## Informations
 
 This is a sample project of a homepage of e-commerce website which only html, css(with sass processor) and javascript is used.
 
