@@ -29,6 +29,7 @@
   @include respond(992px) {
     display: flex;
     align-items: center;
+    padding: 40px 0;
   }
 }
 
@@ -107,6 +108,7 @@
       font-weight: 700;
       line-height: 42px;
       margin-bottom: 12px;
+      max-width: 500px;
     }
 
     .desc {
@@ -124,8 +126,7 @@
 
   .scroll-container {
     margin-top: -2.5rem;
-    overflow-x: hidden;
-    cursor: pointer;
+    overflow-x: scroll;
     position: relative;
     z-index: 10;
 
@@ -158,14 +159,6 @@
         display: grid;
         place-items: center;
       }
-    }
-
-    &.active {
-      cursor: grabbing;
-    }
-
-    @media (hover: none) {
-      overflow-x: scroll;
     }
 
     @include respond(992px) {
@@ -268,6 +261,7 @@
       height: 12px;
       border-radius: 50%;
       overflow: hidden;
+      cursor: pointer;
     }
 
     .color-container.active {
